@@ -1,0 +1,114 @@
+ -----------------------------------------
+   			Useful Terminal Commands
+ -----------------------------------------
+
+! cd 
+change directory 
+#Structure of the command
+cd "name of folder"
+Example: cd home/
+
+! ls 
+shows all the files and folders in the selected folder
+Example: ls
+
+! ls -l 
+shows all the files and folders in the selected folder. Provides more details than ls 
+Example: ls -l 
+
+! pwd 
+print working directory, as the name suggests prints the directory you are currently in 
+Example: pwd
+
+! cp 
+Copies a file/folder. Can be used as cp -v, using it this way will show what file was copied where. 
+#Structure of the command 
+cp -v "path of the file you wish to copy" "path to where the file should be copied"
+Example: cp -v myText.txt /documents/  
+
+! --help
+shows all the possiblies for a command
+#Structure of the command
+"command" --help
+Example: cp --help
+
+! man
+gives information of a command
+#Structure of the command
+man "command"
+Example: man pwd
+
+! mv 
+Moves a file/folder. Can also be used to rename a file/folder
+#Structure of the command
+mv "file name" "new file name"
+mv "file name" "path to which the file should be moved"
+[ #BE CAREFUL WHEN USING THIS COMMAND# ]
+Example: mv myText.txt /documents/
+
+! cat 
+Shows the content of a file
+#Structure of the command
+cat "file name"
+Example: cat myText.txt
+
+! less
+Shows the content of a file on a new workspace. Does not show up in the Terminal history. To quit an opened file press 'q'
+#Structure of the command
+less "file name"
+Example: less myText.txt
+
+! grep
+allows you to filter the contents of a file when using cat 
+#Structure of the command
+cat "file name" | grep -i "filter term"
+Example: cat myText.txt | grep -i hello
+
+
+! echo 
+Can be used to overwrite the contents of a file. 
+#Structure of the command
+echo "new data" > "name of the file"
+Example: echo 'Oh hey Mark' > Did_not.txt
+
+! touch 
+Quick way to create any number of files. 
+#Structure of the command
+touch "file name" "file name"
+Example: touch filename1 filename2 filename3
+
+! mkdir
+Used to make a new directory
+#Structure of the command
+mkdir "directory name"
+Example: mkdir hackingStuff
+
+!chown 
+can be used to change the owner of a file. Gives file ownership to the 'username'
+#Structure of the command
+chown "username':'usergroup" "file name"
+[ #note username and usergroup are usually the same# ]
+Example: chown root:root myText.txt
+
+! chmod
+can be use to change file permission. Can be used in various ways, some of them are:  
+1) chmod +x
+allows the file to be executable
+2) chmod +w
+allows the file to be writable
+3) chmod +r
+allows the file to be readable 
+4) chmod 777
+gives all the permissions to all the users. Usually used to troubleshoot to check if there is an error being caused due to permissions
+
+<note other ways can be found online but these are important> 
+
+#Structure of the command
+chmod  +x "file name"
+Example: chmod +x myText.sh
+ 
+! rm
+Removes a file from the system. PERMANTLY. #BE CAREFUL WHEN USING THIS COMMAND#
+#Structure of the command
+rm "filename"
+Example: rm myText.txt
