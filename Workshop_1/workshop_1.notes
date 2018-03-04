@@ -6,14 +6,13 @@ Setting up Kali linux
 Task 2 
 To create a new text file in a new directory. 
 Then using that file to find the login credentials of the target
-Stage 1: go to the home directory 
-		 hint: use the ~ along side the change directory command 
+Stage 1: go to the document directory 
 Stage 2: create a directory inside it, name it "container"
 Stage 3: clone the following git repository "https://github.com/umisc/workshops.git"
 Stage 4: using the list of the terminal commands provided, find the login credentials of the user
 		 hint: filtering through the data might be useful
-Stage 5: create a new text file, name it "pay_load.txt" and write the login credentials into it 
-Stage 6: move the pay_load file to the desktop and Yell "pay_load has been delivered, terrorist wins"
+Stage 5: create a new text file, name it "payload.txt" and write the login credentials into it 
+Stage 6: move the pay_load file to the desktop folder and Yell "payload has been delivered, terrorist wins"
 Stage 7: If you finish super fast you can move onto the next task by going to the link below while we wait for others 
 		 or help those who are struggling  
 
