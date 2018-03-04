@@ -6,7 +6,8 @@ Setting up Kali linux
 Task 2 
 To create a new text file in a new directory. 
 Then using that file to find the login credentials of the target
-Stage 1: go to the /etc directory
+Stage 1: go to the home directory 
+		 hint: use the ~ along side the change directory command 
 Stage 2: create a directory inside it, name it "container"
 Stage 3: clone the following git repository "https://github.com/umisc/workshops.git"
 Stage 4: using the list of the terminal commands provided, find the login credentials of the user
