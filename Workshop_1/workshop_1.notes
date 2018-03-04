@@ -8,7 +8,7 @@ To create a new text file in a new directory.
 Then using that file to find the login credentials of the target
 Stage 1: go to the /etc directory
 Stage 2: create a directory inside it, name it "container"
-Stage 3: clone the following git repository 
+Stage 3: clone the following git repository "https://github.com/umisc/workshops.git"
 Stage 4: using the list of the terminal commands provided, find the login credentials of the user
 		 hint: filtering through the data might be useful
 Stage 5: create a new text file, name it "pay_load.txt" and write the login credentials into it 
