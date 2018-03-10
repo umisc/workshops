@@ -50,7 +50,7 @@ To create a new text file in a new directory. Then using that file to find the l
 
 Stage 1: go to the document directory 
 Stage 2: create a directory inside it, name it "container"
-Stage 3: clone the following git repository "https://github.com/umisc/workshops/tree/master/Workshop_1"
+Stage 3: clone the following git repository "https://github.com/umisc/workshops.git"
 Stage 4: using the list of the terminal commands provided, find the login credentials of the user from data.txt file
 		 hint: filtering through the data might be useful
 Stage 5: create a new text file, name it "payload.txt" and write the login credentials into it 
