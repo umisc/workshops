@@ -1,0 +1,28 @@
+SQL workshop
+
+
+!Task 1 
+
+In this task we will mess around we some basic SQL query. 
+
+()For those who have Kali linux, boot it up and open sql lite. 
+()If you don't have Kali linux then make sure you have sql lite install on your laptop and run it. 
+
+Click on Execute SQL and write your query in the field provided below 
+
+1) Make a query to see all the records in the file 
+2) Find all the names(first and last) of the users in the table 
+3) It seems like Andy played a prank on Hamish and changed his last name. 
+Can you figure out what Hamish's real last name is and change it back?
+4) Hamish wants revenge on Andy, and wants to mess with his emails. 
+Write a query that will return Andy's username and password 
+5) The system adminstrator noticed that Hamish and Andy have been messing around on his system.
+He's not pleased and is deleting their accounts. Delete Hamish and Andy's records from the system. 
+6) Hamish and Andy realized that the system adminstrator has deleted their accounts. 
+This means they wouldn't be able to access their club penguins accounts. Oh no!
+Hamish and Andy decide to work together, in order to regain their accounts. Insert their details back to the table.
+
+!Task 2
+Now that you have feeling for how SQL works lets try some SQL injections
+
+
