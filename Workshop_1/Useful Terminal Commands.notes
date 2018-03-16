@@ -1,6 +1,7 @@
  -----------------------------------------
-   			Useful Terminal Commands
+   			Useful Terminal Commands				
  -----------------------------------------
+Created by: Tarnvir Grewal 
 
 ! cd 
 change directory 
@@ -112,3 +113,5 @@ Removes a file from the system. PERMANTLY. #BE CAREFUL WHEN USING THIS COMMAND#
 #Structure of the command
 rm "filename"
 Example: rm myText.txt
+
+
