@@ -21,8 +21,26 @@ He's not pleased and is deleting their accounts. Delete Hamish and Andy's record
 6) Hamish and Andy realized that the system adminstrator has deleted their accounts. 
 This means they wouldn't be able to access their club penguins accounts. Oh no!
 Hamish and Andy decide to work together, in order to regain their accounts. Insert their details back to the table.
+7) Peter Mitchel sees that Hamish and Andy are having a lot of fun messing with the system adminstrator.
+He wants to join in on the fun. Delete the entire table. Peter is an odd man.  
 
 !Task 2
 Now that you have feeling for how SQL works lets try some SQL injections
+
+Head over to overthewire.
+http://overthewire.org/wargames/natas/
+
+You can skip straight to level 8->9. The password to log onto the level is W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl
+#NOTE: in the levels before this you find out the path of the file containing passwords is /etc/natas_webpass/natas10. This is the only information you require from prior levels.
+
+You can try solve level 0 to 3.
+These levels are optional since they are not directly related to today's topic but can be solved using a little critical thinking and a hint of googling. 
+
+Level 6 to 8 are doable if you have some experience with programming and were able to solve levels 0 to 3 
+
+Level 3 to 5 contain things we will be addressing later on, therefore it's best to skip them unless you know your stuff. 
+
+
+
 
 
