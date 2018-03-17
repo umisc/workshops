@@ -8,6 +8,8 @@ In this task we will mess around we some basic SQL query.
 ()For those who have Kali linux, boot it up and open sql lite. 
 ()If you don't have Kali linux then make sure you have sql lite install on your laptop and run it. 
 
+Donwload files from gitub.com/umisc. 
+
 Click on Execute SQL and write your query in the field provided below 
 
 1) Make a query to see all the records in the file 
@@ -30,7 +32,7 @@ Now that you have feeling for how SQL works lets try some SQL injections
 Head over to overthewire.
 http://overthewire.org/wargames/natas/
 
-You can skip straight to level 8->9. The password to log onto the level is W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl
+You can skip straight to level 8->9. The username is natas8. The password to log onto the level is W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl
 #NOTE: in the levels before this you find out the path of the file containing passwords is /etc/natas_webpass/natas10. This is the only information you require from prior levels.
 
 You can try solve level 0 to 3.

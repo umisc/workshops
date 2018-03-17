@@ -16,7 +16,7 @@ INSERT
 is used to add new value(s) to a table 
 #Structure of the command
 INSERT INTO table_name VALUES (value1, value2, value3, ...);
-Example: INSERT INTO players VALUES(Arjen, Robben, striker, Bayern, Netherlands);
+Example: INSERT INTO players VALUES("Arjen", "Robben", "striker", "Bayern", "Netherlands");
 
 
 DELETE 
