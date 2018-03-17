@@ -16,7 +16,7 @@ INSERT
 is used to add new value(s) to a table 
 #Structure of the command
 INSERT INTO table_name VALUES (value1, value2, value3, ...);
-Example:
+Example: INSERT INTO players VALUES(Arjen, Robben, striker, Bayern, Netherlands);
 
 
 DELETE 
@@ -39,19 +39,30 @@ is used to filter the search results by adding conditions
 SELECT column1, column2, ...
 FROM table_name
 WHERE condition;
-Example:
+Example: SELECT position FROM player WHERE country = "Netherlands";
 
 CREATE
 is used to create new a table
 #Structure of the command
-CREATE DATABASE databasename;
-Example:
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
+);
+Example: CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255) 
+);
 
 DROP
 is used to delete a table
 #Structure of the command
-DROP DATABASE databasename;
-Example:
+DROP TABLE table_name;
+Example: DROP TABLE players;
 
 ! Important notes
 
