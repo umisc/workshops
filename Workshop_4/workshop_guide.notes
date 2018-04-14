@@ -5,9 +5,9 @@ For task 1 we will be using Webgoat
 Follow the steps below to install Webgoat on your kali machines:
 
 1) Go to the link: https://github.com/WebGoat/WebGoat/releases
-2) Download the webgoat-server-8.0.0.M12.jar file (should be around 72.7MB)
+2) Download the webgoat-server-8.0.0.M14.jar file (should be around 72.7MB)
 3) Open terminal and cd to folder containing the downloaded file
-4) Run the following command: java -jar webgoat-server-8.0.0.M12.jar --server.port=9090
+4) Run the following command: java -jar webgoat-server-8.0.0.M14.jar --server.port=9090
 5) WebGoat might take a few seconds to a few minutes depending on your machine speed to setup 
 6) Once done setting up, open up firefox and type in the url following url: localhost:9090/WebGoat/registration
 7) create a username and password, and read through the terms and conditions. Sign up if you agree. 
