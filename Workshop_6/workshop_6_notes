@@ -27,9 +27,9 @@ In the Terminal window, execute these commands:
     
     nano crack1.hash 
 
-In the nano text editor, carefully delete the username jose and the colon after it, and delete everything after the semicolon
-at the end of the file, 
-including all the colons.
+In the nano text editor( or vim or leafpad or any text editor you prefer) ,carefully delete the username jose and the colon after it, 
+and delete everything after the semicolon at the end of the file including all the colons. So we'll have only the hash and nothing else.
+(This part can be a little tricky so don't hesitate ask for help if you're confused about what to do!) 
 
 5) DOWNLOADING THE WORD-LIST:
 We'll use a very small list of 500 common passwords.
