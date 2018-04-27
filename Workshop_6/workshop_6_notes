@@ -1,0 +1,65 @@
+Task 1:
+Cracking password using Hashcat 
+
+1) CREATING A TEST USER: 
+open terminal and create a new user who's password we will try to crack. Commands: 
+    adduser "name" (For example we'll use user1)
+    password: "password" (For the sake of simplicty and time efficiency we'll be using a simple passphrase like 'password' or 123456)
+    
+   After enterring the password, hit Enter for the rest of the fields and it'll choose the default option.
+   
+2) VIEWING THE HASH PASSWORD: In a Terminal window, execute this command:
+
+    tail /etc/shadow 
+
+The last line shows the password hash for our user. (everyone's hash will be different)
+Look at the salt following the username "user1". The $6$ value indicates a type 6 password hash (SHA-512, many rounds). 
+
+3) Identifying the hash type: The hash algorithm is defined in the file /etc/login.defs. To see the portion of that file 
+discussing the password hash algorithm, execute this grep command to see 18 lines after the line containing the string "ENCRYPT_METHOD":
+
+    grep -A 18 ENCRYPT_METHOD /etc/login.defs 
+
+4) MAKING A HASH FILE:  
+In the Terminal window, execute these commands:
+
+    tail -n 1 /etc/shadow > crack1.hash
+    
+    nano crack1.hash 
+
+In the nano text editor, carefully delete the username jose and the colon after it, and delete everything after the semicolon
+at the end of the file, 
+including all the colons.
+
+5) DOWNLOADING THE WORD-LIST:
+We'll use a very small list of 500 common passwords.
+
+In a Terminal window, execute these commands:
+
+     curl https://samsclass.info/123/proj10/500_passwords.txt > 500_passwords.txt 
+
+To view the first 10 entries of the file, type in the following command: 
+    head 500_passwords.txt 
+    
+6) CRACKING THE HASH:
+In the Terminal window, execute these commands:
+
+     hashcat -m 1800 -a 0 -o found1.txt --remove crack1.hash 500_passwords.txt
+
+    Explanation: This uses hashcat with these options:
+    
+    Unix type 6 password hashes (-m 1800)
+    Using a dictionary attack (-a 0)
+    Putting output in the file found1.txt
+    Removing each hash as it is found (--remove)
+    Getting hashes from crack1.hash
+    Using the dictionary 500_passwords.txt 
+    
+7) VIEWING THE PASSWORD:    
+    cat found1.txt
+    
+    You should see the hash, with the cracked password of "password" at the end separated by a semicolon. 
+
+
+
+
