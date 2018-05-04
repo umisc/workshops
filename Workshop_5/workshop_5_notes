@@ -55,4 +55,8 @@ The objective of this task is to exploit the Samba "username map script" Command
 
 6) Now we need to run "exploit". Again if a session is created than it means the attack was successful.
 
+Next Task : Try exploit the other exploits of Metasploitable listed by zenmap
+
+
+Created by: Cathy Weng &  Kaif Ahsan
 
