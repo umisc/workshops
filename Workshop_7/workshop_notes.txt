@@ -22,15 +22,15 @@ Task 1: Digital Camouflage
 Task 2: Special Agent User
 	1) Download the data.pcap file which has the network data and open it with WireShark.
 	
-	2) From the hint of the task, we can see that information on browsers can be found on in 'user agent strings'.
+	2) From the hint of the task, we can see that information on browsers can be found in 'user agent strings'.
 	   If you're unfamiliar with this term, googling up is the best option. Look into Wikipedia.
 	
-	3) Again, we need to filter only HTTP protocols.
+	3) Again, we need to filter only HTTP protocols since the interaction is between browser and device.
 	
-	4) We'll we two types of files. The files starting with GET represent the request from the client and the ones 
+	4) We'll see two types of files. The files starting with GET represent the request from the client and the ones 
 	   starting with HTTP is the response from the browser. So the browser version data will be under GET files.
 	   
-	5) We have to look under the Hypertext Transfer Protocol tab for the user agent string. We looking at different GET files 
-	   until you with the one with browser data.
+	5) We have to look under the Hypertext Transfer Protocol tab for the user agent string. Look at different GET files 
+	   until you with the one with browser data (It should show browser name and version).
 	   
-	6) Type in the browser name and version as directed in the task by the website in the submit section.
+	6) Type in the browser name and version as directed in the task in the submit section.
