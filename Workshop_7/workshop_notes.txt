@@ -1,0 +1,5 @@
+In this workshop, we'll look into the Forensics Challenges of picoCTF 2017.
+
+Task 1: Digital Camouflage
+	1) 
+	
