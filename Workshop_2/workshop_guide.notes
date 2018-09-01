@@ -33,7 +33,7 @@ Head over to overthewire.
 http://overthewire.org/wargames/natas/
 
 
-You can skip straight to level 13->15. The username is natas13. The password to log onto the level is Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1
+You can skip straight to level 14->16. The username is natas14. The password to log onto the level is Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1
 
 If you are done with those questions you can move to question 8->9 and 9->10. The username is natats9 and password is W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl . But keep in mind that this is a code injection question.
 #NOTE: in the levels before this you find out the path of the file containing passwords is /etc/natas_webpass/natas10. This is the only information you require from prior levels.
