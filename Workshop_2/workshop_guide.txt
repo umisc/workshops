@@ -45,10 +45,9 @@ Level 6 to 8 are doable if you have some experience with programming and were ab
 
 Level 3 to 5 contain things we will be addressing later on, therefore it's best to skip them unless you know your stuff. 
 
-Survey 
-https://goo.gl/UhXqTe
+
 
 
 Created by: Tarnvir Grewal 
-
+Modified by: Kaif Ahsan 
 
