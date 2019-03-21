@@ -1,6 +1,4 @@
-# Workshop 3
-
-## Review
+# Previous Workshops Review
 
 ### #1 Setting up Kali linux
 
@@ -17,11 +15,5 @@
 ### #2 Practising Linux commands
 
 [OverTheWire Bandit](http://overthewire.org/wargames/bandit/)
-
----
-
-### #3 SQL Injection
-
-[WebGoat](https://github.com/WebGoat/WebGoat) - use option 2 to run
 
 ---
