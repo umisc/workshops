@@ -17,3 +17,9 @@
 [OverTheWire Bandit](http://overthewire.org/wargames/bandit/)
 
 ---
+
+# This Workshop : User privilege escalation 
+
+Learn what linux user rights are. How permissions can be dangerous
+
+and how they can be exploited to expose a system
