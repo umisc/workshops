@@ -1,0 +1,36 @@
+In this workshop, we'll look into the Forensics Challenges of picoCTF 2017.
+
+Task 1: Digital Camouflage
+	1) Download the data.pcap file which has the network data and open it with WireShark.
+	
+	2) Since we want the packets which comes from interaction with a website, the protocol has to be HTTP. 
+	   Select or type in http in the filter to show all the packets assosiated with HTTP. 
+  	
+	3) Find out the file containing POST Request as this file contains additional information about the client
+	   after he has entered some form of data, i.e - username and passwords.
+	   
+   	4) The username and password can be seen under HTML Form URL Encoded. 
+	
+	5) From our previous workshops we know that text followed by '==' means its base64 encoded. 
+	
+	6) Decode the string using any base64 cracker website or type in the commands in the terminal :
+		echo "string==" | base64 -d
+	
+	7) And Voila! You now have the password of this challenge.  
+	 
+	
+Task 2: Special Agent User
+	1) Download the data.pcap file which has the network data and open it with WireShark.
+	
+	2) From the hint of the task, we can see that information on browsers can be found in 'user agent strings'.
+	   If you're unfamiliar with this term, googling up is the best option. Look into Wikipedia.
+	
+	3) Again, we need to filter only HTTP protocols since the interaction is between browser and device.
+	
+	4) We'll see two types of files. The files starting with GET represent the request from the client and the ones 
+	   starting with HTTP is the response from the browser. So the browser version data will be under GET files.
+	   
+	5) We have to look under the Hypertext Transfer Protocol tab for the user agent string. Look at different GET files 
+	   until you with the one with browser data (It should show browser name and version).
+	   
+	6) Type in the browser name and version as directed in the task in the submit section.

@@ -1,0 +1,21 @@
+Create a shared folder between your main OS and a kali virtual machine in Virtual Box
+
+
+With Kali VM open:
+1- go to toolbar of the VIRTUAL BOX windows itself
+2- go to devices -> insert guest additions cd image
+3- open file browser window, you will something called VBox_GAss...
+4- click VBox_GAss... something
+5- open a terminal in that folder, you should have a terminal in /mount/cdrom0 or something similar
+6- type sh ./VBoxLinuxAdditions.run
+7- wait for install then close machine
+8- Make a folder somewhere in your windows, this will be the shared file
+9- go to kali machine settings in Vbox
+10- go to shared folders
+11- click the + icon, make the folder permanent and auto mount
+12- select the path of the folder you created, then OK
+13- run the machine and you should be able to share files through that folder
+
+
+Written by Asil Mian
+20-01-2019
