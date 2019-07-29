@@ -1,7 +1,5 @@
 # MISC Workshops
 
-All notes and guides provided in the workshop will be populated here over time.
-
-Notes and guides provided in the workshop
+Slides used in the workshops can be found here. Additional notes and files may also be added for each workshop as needed
 
 older and deprecated workshops are in older branches
