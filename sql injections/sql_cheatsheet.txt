@@ -1,0 +1,71 @@
+SQL Cheatsheet
+
+SELECT 
+is used to tell the database what attribute you want from the table 
+#Structure of the command
+SELECT column1, column2, ... FROM table_name;
+Example: SELECT address FROM users;
+
+FROM 
+is used to select the table from which to retrive data from.
+#Structure of the command
+SELECT column1, column2, ... FROM table_name;
+Example: SELECT address FROM users;
+
+INSERT
+is used to add new value(s) to a table 
+#Structure of the command
+INSERT INTO table_name VALUES (value1, value2, value3, ...);
+Example: INSERT INTO players VALUES("Arjen", "Robben", "striker", "Bayern", "Netherlands");
+
+
+DELETE 
+is used to delete entries from a table 
+#Structure of the command
+DELETE FROM table_name WHERE condition;
+Example: DELETE FROM users WHERE id = 16;
+
+UPDATE 
+is used to update entries in a table 
+#Structure of the command
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+Example: UPDATE users SET password = "DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe" WHERE id = 3;
+
+WHERE
+is used to filter the search results by adding conditions 
+#Structure of the command
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+Example: SELECT position FROM player WHERE country = "Netherlands";
+
+CREATE
+is used to create new a table
+#Structure of the command
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
+);
+Example: CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255) 
+);
+
+DROP
+is used to delete a table
+#Structure of the command
+DROP TABLE table_name;
+Example: DROP TABLE players;
+
+! Important notes
+
+The ";" indicates the end of a query statment. Make sure to put it at the end of a query. 
+The "#" is use to comment in SQL 
+The "*" when used with SELECT mean to retrive all possible attributes
