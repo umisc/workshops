@@ -8,3 +8,6 @@
 
 - Upgrading reverse shells to fully interactive shells
   https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/
+
+- GTFObins: list of default linux binaries and how they can be used to escalate privilege
+  https://gtfobins.github.io/
