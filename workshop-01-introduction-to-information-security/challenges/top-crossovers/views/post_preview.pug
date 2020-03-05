@@ -1,0 +1,15 @@
+html
+    head
+        title='Top Crossovers - Post Preview'
+        link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous')
+    body
+        nav.navbar.bg-light
+            a.navbar-brand(href="#") Top Crossovers
+            ul.navbar-nav
+                li.nav-item Post Preview
+
+        br
+        center
+            h3 #{title}
+            br
+            div#story(style="display: inline-block")!= story
