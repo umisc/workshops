@@ -9,7 +9,7 @@ docker build -t pizza-shop .
 #### Run the container
 
 ```bash
-docker run -d -p 6001:6001 -t pizza-shop --restart always
+docker run -d -p 6001:6001 -t pizza-shop
 ```
 
 You should then be able to `nc 0.0.0.0 6001`.
