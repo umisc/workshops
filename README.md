@@ -9,5 +9,7 @@ Challenges should be live at https://workshop-ctf.umisc.info most of the time du
 |01|[Introduction to Information Security](./workshop-01-introduction-to-information-security/slides.pdf)|[Challenges](./workshop-01-introduction-to-information-security/challenges/)|[Writeups](https://www.umisc.info/post/2020-03-05-workshop-01-ctf-writeups)|Joseph|
 |02|[Protocols & The Web](./workshop-02-protocols-and-the-web/slides.pdf)|[Challenges](./workshop-02-protocols-and-the-web/challenges)|[Writeups](https://www.umisc.info/post/2020-03-11-workshop-02-ctf-writeups)|Joseph|
 |03|[x86 Reversing](./workshop-03-x86-reversing/slides.pdf)|-|-|Darren|
+|04|CTF Talks|-|-|Various|
+|05|[Steganography](./workshop-05-steganography/slides.pdf)|-|-|Annie|
 
 older and deprecated workshops are in older branches
