@@ -11,5 +11,6 @@ Challenges should be live at https://workshop-ctf.umisc.info most of the time du
 |03|[x86 Reversing](./workshop-03-x86-reversing/slides.pdf)|-|-|Darren|
 |04|CTF Talks|-|-|Various|
 |05|[Steganography](./workshop-05-steganography/slides.pdf)|-|-|Annie|
+|06|[Web App Security](./workshop-06-web-app-security/slides.pdf)|-|-|Joseph|
 
 older and deprecated workshops are in older branches
