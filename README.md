@@ -12,5 +12,6 @@ Challenges should be live at https://workshop-ctf.umisc.info most of the time du
 |04|CTF Talks|-|-|Various|
 |05|[Steganography](./workshop-05-steganography/slides.pdf)|-|-|Annie|
 |06|[Web App Security](./workshop-06-web-app-security/slides.pdf)|-|-|Joseph|
+|07|[Cross-Site Scripting](./workshop-07-xss/slides.pdf)|-|-|Kaif|
 
 older and deprecated workshops are in older branches
