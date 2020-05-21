@@ -14,5 +14,6 @@ Challenges should be live at https://workshop-ctf.umisc.info most of the time du
 |06|[Web App Security](./workshop-06-web-app-security/slides.pdf)|-|-|Joseph|
 |07|[Cross-Site Scripting](./workshop-07-xss/slides.pdf)|-|-|Kaif|
 |08|[Cryptography](./workshop-08-cryptography/slides.pdf)|-|-|Joseph|
+|09|[Recon & Enum](./workshop-09-recon-and-enum/slides.pdf)|-|-|Kaif|
 
 older and deprecated workshops are in older branches
