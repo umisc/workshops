@@ -18,5 +18,6 @@ Challenges should be live at https://workshop-ctf.umisc.info most of the time du
 |10|Wargames|-|-|Chuanshu|
 |11|[Binary Exploitation](./workshop-11-binary-exploitation/slides.pdf)|-|-|Darren|
 |12|[Unrestricted File Upload Vulnerabilities](./workshop-12-unrestricted-file-upload-vulnerabilities/slides.pptx)|-|-|Adam|
+|13|[Cyber Security Interviews & Beyond](./workshop-13-cyber-security-interviews-and-beyond/slides.pdf)|-|-|Kaif|
 
 older and deprecated workshops are in older branches
