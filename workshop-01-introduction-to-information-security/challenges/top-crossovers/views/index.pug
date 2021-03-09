@@ -1,0 +1,23 @@
+html
+    head
+        title='Top Crossovers'
+        link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous')
+    body
+        nav.navbar.bg-light
+            a.navbar-brand(href="#") Top Crossovers
+            ul.navbar-nav
+                li.nav-item Write your story!
+
+        br
+        center
+            .alert.alert-dark(style='width: 45%') #{message}
+            form#post-form(action='/make_post' method='post' style='width: 45%')
+                .form-group
+                    label(for='title')
+                    input.form-control#title(name='title' placeholder='title')
+                .form-group
+                    label(for='story')
+                    textarea.form-control#story(name='story' placeholder='story')
+                button.btn.btn-primary(type='submit' style='margin: 20px' name='action' value='preview' onclick='document.getElementById("post-form").setAttribute("target", "_blank")') Preview
+                button.btn.btn-primary(type='submit' style='margin: 20px' name='action' value='review' onclick='document.getElementById("post-form").setAttribute("target", "_self")') Submit for review
+
