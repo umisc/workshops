@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+const puppeteer = require('puppeteer')
+
+const link = process.argv[2]
+const executablePath = process.env.CHROMIUM_PATH || '/usr/bin/chromium'
+const website_url_base = process.env.baseURL || 'http://0.0.0.0:2001'
+
+async function main() {
+    const browser = await puppeteer.launch({ executablePath, headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] })
+    const page = await browser.newPage()
+    await page.goto(website_url_base + '/g3n3r4t3_w1n_c00k13')
+    console.log('going to', link)
+    await page.goto(link, { timeout: 3000 })
+    await page.waitFor(3000)
+    await browser.close()
+}
+
+main().catch(console.error)
