@@ -8,6 +8,6 @@ Challenges should be live at https://workshop-ctf.umisc.info most of the time du
 |---|---|---|---|---|
 |02|[Welcome to MISC](./workshop-01-Welcome-to-MISC/slides.pdf)|-|-|Multiple Authors|
 |02|[Career Pathways](./workshop-01-Welcome-to-MISC/Cybersecurity-careers-presentation.pdf)|-|-|Kaif, Kushal|
-|03|[Web and Internet Protocols](./workshop-02-Web-and-Internet-Protocols/Web-and-Internet-Protocols.pdf)|-|-|Soorya|
+|03|[Web and Internet Protocols](./workshop-02-Web-and-Internet-Protocols/slides.pdf)|-|-|Soorya|
 
 older and deprecated workshops are in older branches
