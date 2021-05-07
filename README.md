@@ -10,6 +10,7 @@ Challenges should be live at https://workshop-ctf.umisc.info most of the time du
 | 02   | [Career Pathways](./workshop-01-Welcome-to-MISC/Cybersecurity-careers-presentation.pdf) | -          | -        | Kaif, Kushal     |
 | 03   | [Web and Internet Protocols](./workshop-02-Web-and-Internet-Protocols/slides.pdf)       | -          | -        | Soorya           |
 | 04   | [XSS](./workshop-03-XSS/slides.pdf)                                                     | -          | -        | Ayesha           |
-| 05   | [MISC SGM](./misc-sgm/slides.pdf)                                                     | -          | -        | Multiple Authors           |
+| 05   | [MISC SGM](./misc-sgm/slides.pdf)                                                       | -          | -        | Multiple Authors |
+| 06   | [Buffer Overflow](./workshop-04-Buffer-Overflow/slides.pdf)                             | -          | -        | Ayesha           |
 
 older and deprecated workshops are in older branches
