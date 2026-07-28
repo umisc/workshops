@@ -2,7 +2,7 @@
 Slides used the workshops can be found here. Additional notes and files may also be added for each workshop as needed.
 
 ## Semester 2
-| Week | Workshop                                                                                | Challenges | Writeups | Author           |
+| Week | Workshop                                                                                | Challenges | Writeups | Author(s)        |
 | ---- | --------------------------------------------------------------------------------------- | ---------- | -------- | ---------------- |
 | 02   | [Welcome to MISC]()                                                                     | -          | -        |                  |
 | 02   | []()                                                                                    | -          | -        |                  |
