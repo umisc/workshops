@@ -4,7 +4,7 @@ Slides used the workshops can be found here. Additional notes and files may also
 ## Semester 2
 | Week | Workshop                                                                                | Challenges | Writeups | Author(s)        |
 | ---- | --------------------------------------------------------------------------------------- | ---------- | -------- | ---------------- |
-| 02   | [Welcome to MISC]()                                                                     | -          | -        |                  |
+| 01   | [Welcome to MISC](week-1/Welcome%20to%20MISC%20_%20Careers.pdf)                         | -          | -        |                  |
 | 02   | []()                                                                                    | -          | -        |                  |
 | 03   | []()                                                                                    | -          | -        |                  |
 | 04   | []()                                                                                    | -          | -        |                  |
